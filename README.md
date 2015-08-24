@@ -1,5 +1,8 @@
 # List of Common Machine Learning Algorithms
 
+This is an instructional file to explain common machine learning
+algorithms and how to implement them using R and Python. 
+
 Below is a list of common machine learning algorithms. 
 
 * Linear Regression
