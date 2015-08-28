@@ -24,11 +24,34 @@ When using Linear Regression, we establish relationship between independent and 
 
 So. What do we mean by all of this? 
 
-Consider the following... 
+Consider the following example. 
 
-### R Code Example
+Suppose we want to understand how the population of a city can have an effect on the profit of stores within that city. In our first example, let's look at the ex1dat1.txt file within the data folder. The first column repreents the population of the city. The second column is the profit of having a store in that city, and a negative value within the second column indicates profit loss. 
 
-### Python Code Example 
+Using Python, let's first look at a visualization of this data (without any regression line applied). We can write the following, which is located within the src folder as linreg.py: 
+
+```
+from numpy import loadtxt, zeros, ones, array, linspace, logspace
+from pylab import scatter, show, title, xlabel, ylabel, plot, contour
+
+
+
+#Load the dataset
+data = loadtxt('../ex1data1.txt', delimiter=',')
+
+#Plot the data
+scatter(data[:, 0], data[:, 1], marker='o', c='b')
+title('Profits distribution')
+xlabel('Population of City in 10,000s')
+ylabel('Profit in $10,000s')
+show()
+```
+
+From looking at the output of the data in the form of a scatter plot, it seems obvious that there is a correlation: the larger the population of a city is, the more a store will make in profit. But let's find out for sure using the techniques we've described with Linear Regression. 
+
+
+
+
 
 ## Logistic Regression 
 
