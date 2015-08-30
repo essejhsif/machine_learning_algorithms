@@ -1,6 +1,5 @@
 # List of Common Machine Learning Algorithms
 http://danlec @.1 foo=bar
-
 This is an instructional file to explain common machine learning
 algorithms and how to implement them using R and Python. 
 
