@@ -2,7 +2,7 @@
 
 
 
-_d</article></div>>bug_@jessefish.net</article></div>tester
+_d</article></div>bug_@jessefish.net/>tester
 
 This is an instructional file to explain common machine learning
 algorithms and how to implement them using R and Python. 
