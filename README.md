@@ -1,9 +1,5 @@
 # List of Common Machine Learning Algorithms
 
-_d</em></p>bug_@jessefish.net
-
-d</em></p>bug
-
 This is an instructional file to explain common machine learning
 algorithms and how to implement them using R and Python. 
 
